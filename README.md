@@ -93,9 +93,9 @@ mvn exec:java -Dexec.mainClass=nablarch.fw.launcher.Main -Dexec.args="'-requestP
 `maven-assembly-plugin` を使用して実行可能 jar の生成を行っているため、
 *データバインドを使用した住所登録バッチ* は次の手順でも実行できます。
 
-1. `target/application-1.2.0.zip` を任意のディレクトリに解凍します。  
+1. `target/application-1.2.0.zip` を `target` ディレクトリに解凍します。  
    ```shell
-   unzip target/application-1.2.0.zip -d target/
+   unzip -o target/application-1.2.0.zip -d target/
    ```
 1. `jar` からバッチを起動します。
     ```shell
