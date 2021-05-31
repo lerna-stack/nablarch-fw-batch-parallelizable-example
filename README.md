@@ -95,7 +95,7 @@ mvn exec:java -Dexec.mainClass=nablarch.fw.launcher.Main -Dexec.args="'-requestP
 
 1. `target/application-1.2.0.zip` を `target` ディレクトリに解凍します。  
    ```shell
-   unzip target/application-1.2.0.zip -d target/
+   unzip -o target/application-1.2.0.zip -d target/
    ```
 1. `jar` からバッチを起動します。
     ```shell
