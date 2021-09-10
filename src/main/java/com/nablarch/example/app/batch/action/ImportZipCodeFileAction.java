@@ -54,6 +54,7 @@ public class ImportZipCodeFileAction extends BatchAction<ZipCodeForm> implements
 
     @Override
     public SequentialExecutionIdExtractor sequentialExecutionId(ZipCodeForm element) {
-        return SequentialExecution.byHashCodes(element.getZipCode5digit());
+        // return SequentialExecution.byHashCodes(element.getZipCode5digit());
+        return null;
     }
 }
