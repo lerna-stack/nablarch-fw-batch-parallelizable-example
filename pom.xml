@@ -42,7 +42,7 @@
     <dependency>
         <groupId>com.lerna-stack</groupId>
         <artifactId>nablarch-fw-batch-parallelizable</artifactId>
-        <version>1.2.0</version>
+        <version>1.2.1-a9a748d-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.nablarch.integration</groupId>
@@ -252,5 +252,21 @@
     <tag>main</tag>
     <url>https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example</url>
   </scm>
+  <repositories>
+    <repository>
+      <id>sonatype-snapshots</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <releases>
+        <enabled>false</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+    </repository>
+  </repositories>
 
 </project>
