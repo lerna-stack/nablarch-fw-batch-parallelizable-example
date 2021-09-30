@@ -7,6 +7,10 @@ nablarch-fw-batch-parallelizable-example に関する注目すべき変更はこ
 
 ## Unreleased
 
+
+## [v2021.9.0] - 2021-9-30
+[v2021.9.0]: https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example/compare/v2021.3.0...v2021.9.0
+
 ### Changed
 - Calender Versioning に変更しました [PR#3](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example/pull/3)  
 

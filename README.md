@@ -72,8 +72,8 @@ mvn package
 ```
 
 ビルドされるファイルは次のようなファイルです。
-- `target/application-1.2.0.zip`
-- `target/nablarch-fw-batch-parallelizable-example-1.2.0.jar`
+- `target/application-2021.9.0.zip`
+- `target/nablarch-fw-batch-parallelizable-example-2021.9.0.jar`
 - etc...
 
 
@@ -93,13 +93,13 @@ mvn exec:java -Dexec.mainClass=nablarch.fw.launcher.Main -Dexec.args="'-requestP
 `maven-assembly-plugin` を使用して実行可能 jar の生成を行っているため、
 *データバインドを使用した住所登録バッチ* は次の手順でも実行できます。
 
-1. `target/application-1.2.0.zip` を `target` ディレクトリに解凍します。  
+1. `target/application-2021.9.0.zip` を `target` ディレクトリに解凍します。  
    ```shell
-   unzip -o target/application-1.2.0.zip -d target/
+   unzip -o target/application-2021.9.0.zip -d target/
    ```
 1. `jar` からバッチを起動します。
     ```shell
-    java -Dexec.mainClass=nablarch.fw.launcher.Main -jar target/nablarch-fw-batch-parallelizable-example-1.2.0.jar '-requestPath' 'ImportZipCodeFileAction/ImportZipCodeFile' '-diConfig' 'classpath:import-zip-code-file.xml' '-userId' '105'
+    java -Dexec.mainClass=nablarch.fw.launcher.Main -jar target/nablarch-fw-batch-parallelizable-example-2021.9.0.jar '-requestPath' 'ImportZipCodeFileAction/ImportZipCodeFile' '-diConfig' 'classpath:import-zip-code-file.xml' '-userId' '105'
     ```
 
 ### データベースを確認する
