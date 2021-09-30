@@ -19,7 +19,7 @@
 *nablarch-batch-parallelizable* は次のバージョンです。
 
 * *nablarch-bom 5u18*
-* *nablarch-fw-batch-paralellizable 1.2.0*
+* *nablarch-fw-batch-paralellizable 1.2.1*
 
 ## Getting started
 
@@ -131,6 +131,11 @@ H2DB をインストールし、ブラウザのH2コンソールからデータ�
 | JDBC URL | `jdbc:h2:{dbファイルのパス}/nablarch_example` |
 | ユーザ名   | `NABLARCH_EXAMPLE`                         |
 | パスワード | `NABLARCH_EXAMPLE`                         |
+
+
+## Changelog
+注目すべき変更は [CHANGELOG](CHANGELOG.md) から確認できます。
+
 
 ## License
 
