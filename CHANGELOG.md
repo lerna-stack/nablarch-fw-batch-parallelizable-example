@@ -9,7 +9,8 @@ nablarch-fw-batch-parallelizable-example に関する注目すべき変更はこ
 - Update *[nablarch-fw-batch-parallelizable]*
   to [1.2.1](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable/releases/tag/v1.2.1)
   from [1.2.0](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable/releases/tag/v1.2.0)
-  ([PR#2](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example/pull/2))
+  ([PR#2](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example/pull/2),
+   [PR#4](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example/pull/4))
 
 ## [v1.2.0] - 2021-3-26
 [v1.2.0]: https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example/releases/tag/v1.2.0
